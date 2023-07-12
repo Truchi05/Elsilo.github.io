@@ -1,0 +1,421 @@
+h1 {
+	font-size: 15vw;
+	padding-left: 32vw;
+	display: flex;
+	margin: 0vw;
+	position: relative;	
+}
+#nombre{
+	background-color: #BCAA94;	
+	bottom: 2vw;
+	display: flex;
+	position: relative;
+	top: -8px;
+	}
+.slogan{
+	display: flex;
+	font-size: 5vw;
+	font-family: 'Amatic SC', cursive;
+	padding-left: 42vw;
+	position: relative;
+	bottom: 8vw;
+}
+h4{
+	display: flex;
+	margin: 0px;
+}
+
+.Capuchino{
+	width: 95vw;
+	border-radius: 90px;
+	border-style: solid;
+	border-color: black;
+	border width: 3px;
+}
+body{
+	background-color: #333335;
+	font-family: 'Vollkorn', serif;
+}
+.navegador-ul{
+	position: relative;
+background-color: #A5948C;
+margin-bottom: -100vw;
+margin-top: 1.5vw;
+padding-left: 4vw;
+padding-right: 4vw;
+position: sticky;
+top: 0;
+padding-bottom: 4vw;
+padding-top: 4vw;
+z-index: 500;
+border-color: black;
+border-style: solid;
+border-radius: 40px;
+
+}
+.navegador{
+	position: relative;
+	bottom: 8.5vw;	
+	border-radius: 10px;
+	border-color: black;
+}
+
+.frape{
+	position: relative;
+	left: 5vw;
+	top:0vw;
+	display: flex;
+	font-size: 2.5vw;
+	display: inline-block;
+	color: black;
+	
+}
+.calien{
+position: relative;
+top: 0vw;
+font-size: 2.5vw;
+left: 24.5vw;
+display: flex;
+display: inline-block;
+color: black;
+}
+.saladoa{
+	position: relative;
+	left: 43vw;
+	color: black;
+	font-size: 2.5vw;
+	display: flex;
+	top:0vw;
+	display: inline-block;
+}
+
+.parrafo{
+	margin-bottom: 90vw;
+	position: relative;
+	top: 87vw;
+	margin-right: 0;
+	padding-left: 9vw;
+	background-color: #BCAA94;
+	font-size: 6vw;
+}
+
+.div-instagram{
+	display: flex;
+	height: 15vw;
+	position: relative;
+	top: -1vw;
+	padding-top: 2vw;
+	background-color: #18191f;
+	padding-bottom: 2vw;
+	color: #fff;
+	box-shadow: 2px 2px 2px #00000080, 10px
+		1px 12px #00000080;
+		inset: 2px 2px 10px #00000080, inset  ;
+	border-radius: 29px;
+	animation: animate 3s linear infinite;
+	text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px
+	0 0 200px #0072ff;
+
+}
+.instagram{
+	position: relative;
+	left: 42vw;
+	animation-delay: 0.1s;
+}
+@keyframes animate{
+ 	from{
+ 		filter: hue-rotate(0deg);
+ 	}
+	to {
+		filter: hue-rotate(360deg);
+	}
+}
+.parrafo-2{
+	background-color:  #BCAA94;
+	padding-left: 9.5vw;
+	position: relative;
+	bottom: 4.5vw;
+	font-size: 5.5vw;
+}
+
+.atras-soda{
+	position: relative;
+	display: inline-block;
+	left: 0vw;
+	bottom: 46vw;
+	z-index: 99;
+	font-size: 5vw;
+	font-family: 'Amatic SC', cursive;
+}
+.soda{
+	position: relative;
+	width: 53vw;
+	height: 76vw;
+	border-radius: 90px;
+	border-style: solid;
+	border-color: black;
+}
+.div-soda{
+	left: 44vw;
+	z-index: 100;
+	opacity: 1;
+	position: relative;
+	top: -5vw;
+	margin: 0;
+	transition: 1.5s;
+	display: inline-block;
+}
+.div-soda:hover{
+	z-index: 98;
+	opacity: 0.3;
+}
+h3{
+	font-size: 10vw;
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	top: -5vw;
+	left: 2vw;
+}
+.li-ul-frapes{
+	position: relative;
+	bottom:89vw;
+	font-size: 5vw;
+	font-family: 'Amatic SC', cursive;
+	left: 5vw;
+	display: inline-block;
+}
+.p-frio{
+	position: relative;
+	bottom: 90vw;
+	font-size: 9vw;
+	margin: 0;
+	padding-left: 11vw;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	background-color: #333335;
+	transition: 1s;
+	display: flex;
+}
+.p-frio:hover{
+ background: white;
+ font-size: 11vw;
+ color: black;
+ padding-left: 3vw;
+}
+body{
+	color: white;
+	margin: 0;
+}
+#Caliente{
+	position: relative;
+	bottom: 81vw;
+	font-size: 10vw;
+	display: inline-block;
+	left: 29vw;
+	margin: 0;
+}
+.div-capuchino{
+	position: relative;
+	margin: 0;
+	left: 1vw;
+	opacity: 1;
+	bottom: 77vw;
+	transition: 1.5s;
+	display: inline-block;
+	z-index: 100;
+}
+.div-capuchino:hover{
+	position: relative;
+	opacity: 0.3;
+	z-index: 99;
+}
+.Capuchino{
+	width: 53vw;
+	height: 76vw;
+	border-radius: 90px;
+	border-style: solid;
+	border-color: black;
+	position: relative;
+}
+.atras-Caliente{
+	font-family: 'Amatic SC', cursive;
+	font-size: 5vw;
+	display: inline-block;
+	position: absolute;
+	z-index: 99;
+	right: 46vw;
+	top: 252vw;
+	margin: 0;
+}
+.atras-Caliente:hover{
+	opacity: 1;
+	z-index: 100;
+}
+.ul-capuchino{
+	position: relative;
+	font-size: 5vw;
+	font-family: 'Amatic SC', cursive;
+	display: inline-block;
+	left: 3vw;
+	bottom: 83vw;
+}
+.atras-salado{
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	font-size: 3vw;
+	bottom: 6vw;
+	left: 8vw;
+	z-index: 99;
+	font-family: 'Amatic SC', cursive;
+}
+.americano{
+padding: 5vw;
+}
+.li-capuchino{
+padding: 5vw;
+}
+.moka{
+padding: 5vw;
+}
+.latte{
+padding: 5vw;
+}
+.Chocolate{
+padding: 5vw;
+}
+#salado{
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	bottom: 76vw;
+	left: 3vw;
+	font-size: 9vw;
+}
+#bagel{
+	width: 53vw;
+	position: relative;
+	height: 76vw;
+	border-radius: 90px;
+	border-style: solid;
+	border-color: black;
+}
+.div-bagel{
+	top: -70vw;
+	left: 44vw;
+	margin: 0vw;
+	display: inline-block;
+	position: relative;
+	transition: 1.5s;
+	z-index: 100;
+	opacity: 1;
+}
+
+.ul-salado{
+	font-size: 5vw;
+	bottom: 77vw;
+	position: relative;
+	display: inline-block;
+	left: -45vw;
+	font-family: 'Amatic SC', cursive;
+}
+.crosant{
+	padding: 7vw;
+}
+.sandwich{
+	padding: 7vw;
+}
+.baguet{
+	padding: 7vw;
+}
+.bagel{
+	padding: 7vw;
+}
+footer{
+position: absolute;
+top:473vw;
+left: 3vw;
+height: auto;
+width: auto;
+transition: 1.5s;
+z-index: 100;
+}
+
+.p-telefono{
+	font-size: 8vw;
+	padding-left: 6vw;
+	margin: 0;
+	padding-right: 3vw;
+}
+.p-num-telefono{
+	position: relative;
+	display: inline-block;
+	font-size: 6vw;
+	padding-left: 8vw;
+	margin: 0;
+}
+.numero{
+	font-size: 6vw;
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	left: 18vw;
+}
+.maps{
+	font-size: 6vw;
+	position: relative;
+	bottom: 3vw;
+}
+.mapa{
+	width: 30vw;
+	height: 30vw;
+	position: relative;
+	top: 14vw;
+	left: 2vw;
+	z-index: 99;
+}
+
+
+
+
+
+
+@media screen and (max-width:452px){
+
+	.ul-capuchino{
+		position: relative;
+		font-size: 5vw;
+		font-family: 'Amatic SC', cursive;
+		display: inline-block;
+		left: 55vw;
+		bottom: 164vw;
+	}
+	#salado{
+		display: inline-block;
+		position: relative;
+		margin: 0;
+		bottom: 159vw;
+		left: 3vw;
+		font-size: 9vw;
+	}
+	.div-bagel{
+	top: -155vw;
+	left: 44vw;
+	margin: 0vw;
+	display: inline-block;
+	position: relative;
+	transition: 1.5s;
+	z-index: 100;
+	opacity: 1;
+}
+.ul-salado{
+	font-size: 5vw;
+	bottom: 161vw;
+	position: relative;
+	display: inline-block;
+	left: -49vw;
+	font-family: 'Amatic SC', cursive;
+}
+}
+
